@@ -1,0 +1,41 @@
+public class Main {
+  public static void main(String[] args) {
+    String firstName = "John ";
+    String lastName = "Doe ";
+    String thirdName = "Thapa";
+    System.out.println(firstName.concat(lastName).concat(thirdName));
+  }
+}
+public class Main {
+  public static void main(String[] args) {
+    String firstName = "John ";
+    String lastName = "Doe ";
+    String thirdName = "Thapa";
+    System.out.println(firstName.concat(lastName).concat(thirdName));
+  }
+}
+
+
+
+
+//concatenates three strings together using the concat() method. Here's how the program works:
+
+Three string variables firstName, lastName, and thirdName hold the values "John ", "Doe ", and "Thapa", respectively.
+The concat() method is called on the firstName string with the argument lastName, which concatenates the two strings together to form "John Doe ".
+Then, the concat() method is called again on the result of the previous concatenation (which is "John Doe ") with the argument thirdName, resulting in "John Doe Thapa".
+Finally, the program prints the concatenated string using System.out.println().
+So, the output of the program will be:
+
+Copy code
+John Doe Thapa
+This is the result of concatenating the three strings together.
+
+Three string variables firstName, lastName, and thirdName hold the values "John ", "Doe ", and "Thapa", respectively.
+The concat() method is called on the firstName string with the argument lastName, which concatenates the two strings together to form "John Doe ".
+Then, the concat() method is called again on the result of the previous concatenation (which is "John Doe ") with the argument thirdName, resulting in "John Doe Thapa".
+Finally, the program prints the concatenated string using System.out.println().
+So, the output of the program will be:
+
+Copy code
+John Doe Thapa
+This is the result of concatenating the three strings together.
